@@ -1,0 +1,286 @@
+body {
+  font-family: 'Quicksand', sans-serif;
+  padding: 0px;
+  margin: 0px;
+}
+
+#home {
+  min-height: 100vh;
+  background-image: url("https://cdn.pixabay.com/photo/2016/02/19/11/53/book-1210030_1280.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#home nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 50px;
+}
+
+#home nav img {
+  width: 150px;
+  position: absolute;
+  left: 100px;
+}
+
+#home nav ul li a {
+  color: #3a3a3a;
+  font-size: 1.2rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(255, 255, 255, 0.7);
+}
+
+.absolute {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.cent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  top: 100px;
+  bottom: 0;
+  width: 100%;
+  margin: 0;
+}
+
+.cent > div {
+  padding: 20px;
+}
+
+.homeTexto {
+  color: #000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.homeTexto div {
+  text-align: center;
+}
+
+.homeTexto h1 {
+  font-family: 'Patua One', cursive;
+}
+
+.homeTexto h1, .homeTexto h2, .homeTexto button {
+  margin: 10px 0px;
+}
+
+.btnDorado {
+  border: solid 1px #d2a34a;
+  color: #d2a34a;
+  background: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.btnDorado:hover {
+  color: #fff;
+  background: #d2a34a;
+}
+
+.btnDorado:focus {
+  outline: none;
+}
+
+#nosotros {
+  position: relative;
+  min-height: 80vh;
+  padding: 40px 0px;
+}
+
+.homeFlyer {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 30vw;
+  border-radius: 15px;
+  position: relative;
+  overflow: hidden;
+}
+
+.img1 {
+  background-image: url("https://i.pinimg.com/736x/4b/8f/ed/4b8fed01fd67f861978c1565c8e1b858.jpg");
+}
+
+.img2 {
+  background-image: url("https://i.pinimg.com/736x/18/31/02/1831028472c1be39e1e5d6602cdc33b0.jpg");
+}
+
+.img3 {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTumKYZV8eLMlW9z2OW8AUB7aw21kq4_Zd6fXZkOmp4J5KrSibo");
+}
+
+.titulo {
+  font-family: 'Patua One', cursive;
+  color: #d2a34a;
+  font-size: 2rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.separador {
+  height: 2px;
+  background: #f3f3f3;
+  margin: 0px 40px;
+}
+
+.descripcion {
+  padding: 20px 0px;
+}
+
+.homeFOverlay {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  background: rgba(0, 0, 0, 0.6);
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  opacity: 0;
+}
+
+.homeFOverlay:hover {
+  opacity: 1;
+}
+
+.homeFOverlay div {
+  padding: 20px;
+  text-align: center;
+}
+
+.homeFOverlay div h5 {
+  color: white;
+  font-size: 1rem;
+}
+
+#organizaciones {
+  min-height: 80vh;
+  padding: 40px 0px;
+}
+
+.org {
+  background: #FAFAFA;
+  border-radius: 5px;
+  overflow: hidden;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+.org img {
+  width: 100%;
+}
+
+.org:hover {
+  -webkit-box-shadow: 3px 3px 10px #A4A4A4;
+          box-shadow: 3px 3px 10px #A4A4A4;
+}
+
+.descOrg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 80%;
+  color: black;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0px;
+  overflow: hidden;
+}
+
+.btnOrg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.imgOrg {
+  padding: 0px;
+  margin: 0px;
+}
+
+.titOrg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 20%;
+  margin: 0px;
+}
+
+.subtitulo {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #d2a34a;
+}
+
+.orgP {
+  padding: 10px;
+}
+
+.padding {
+  padding: 20px;
+}
+/*# sourceMappingURL=styles.css.map */
